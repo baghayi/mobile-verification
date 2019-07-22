@@ -4,8 +4,45 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a8a460f111d105bd29204e74e1cccf87",
-    "packages": [],
+    "content-hash": "bcdb27c170f9ce7b97e1bb7272019bae",
+    "packages": [
+        {
+            "name": "baghayi/php-values",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/baghayi/php-values.git",
+                "reference": "fed752eb2cf02d190ddd8329d20b584beda1a686"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/baghayi/php-values/zipball/fed752eb2cf02d190ddd8329d20b584beda1a686",
+                "reference": "fed752eb2cf02d190ddd8329d20b584beda1a686",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Baghayi\\Value\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hüsen Baghayi",
+                    "email": "hossein.baghayi@gmail.com"
+                }
+            ],
+            "description": "Simple PHP Value Objects",
+            "time": "2019-07-22T06:46:50+00:00"
+        }
+    ],
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
