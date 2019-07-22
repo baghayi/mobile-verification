@@ -22,5 +22,8 @@
         "psr-4": {
             "Baghayi\\MobileVerification\\": "src/"
         }
+    },
+    "suggest": {
+        "psr/container": "For support with psr/container compliant containers."
     }
 }
