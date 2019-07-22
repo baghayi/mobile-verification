@@ -1,0 +1,14 @@
+{
+    "name": "baghayi/mobile-verification",
+    "description": "Library for sending verification sms and verifying mobile ownership",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hüsen Baghayi",
+            "email": "hossein.baghayi@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
