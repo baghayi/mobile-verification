@@ -19,7 +19,7 @@ class VerificationCodeSender
         $this->storage = $storage;
     }
 
-    public function sendACodeToMobile(Mobile $mobile): void
+    public function sendACodeToMobile(Mobile $mobile)
     {
         $verificationCode = $this->generateVerificationCode();
         $this->storage->saveCombinations($mobile, $verificationCode);
